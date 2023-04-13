@@ -183,3 +183,14 @@ config :slack, url: "http://localhost:8000"
 Copyright (c) 2014 Blake Williams
 
 Source code is released under [the MIT license](./LICENSE.md).
+
+
+## Snippet for generating error object in JSON from Slack API docs
+```javascript
+table = document.getElementById('mytable');
+o = {}
+for (var i = 0, row; row = table.rows[i]; i++) {
+    o[cells[0].innerText] = cells[1].innerText
+}
+JSON.stringfy(o) // Then format in some online JSON formatter
+```
