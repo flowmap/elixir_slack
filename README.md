@@ -1,4 +1,5 @@
 # Elixir-Slack
+### Fork of https://github.com/BlakeWilliams/Elixir-Slack.
 
 [![Elixir CI](https://github.com/BlakeWilliams/Elixir-Slack/actions/workflows/elixir.yml/badge.svg)](https://github.com/BlakeWilliams/Elixir-Slack/actions/workflows/elixir.yml)
 [![Module Version](https://img.shields.io/hexpm/v/slack.svg)](https://hex.pm/packages/slack)
